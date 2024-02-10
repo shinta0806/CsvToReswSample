@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "CsvToReswSample (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "CsvToReswSample (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
