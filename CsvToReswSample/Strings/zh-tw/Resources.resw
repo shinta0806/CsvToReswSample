@@ -59,33 +59,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppInfo_AppName" xml:space="preserve">
-    <value>CSV to resw Sample</value>
+    <value>CSV to resw 範例程式</value>
   </data>
   <data name="AppInfo_Description" xml:space="preserve">
-    <value>A sample program to help you understand how to use CSV to resw.</value>
+    <value>這是一個範例程序，用於了解如何使用 CSV to resw。</value>
   </data>
   <data name="MainPage_TextBlockGuidance.Text" xml:space="preserve">
-    <value>Choose the dish you would like to order.</value>
+    <value>請選擇您想點的菜色。</value>
   </data>
   <data name="MainPage_CheckBoxCurry.Content" xml:space="preserve">
-    <value>Curry</value>
+    <value>咖哩</value>
   </data>
   <data name="MainPage_CheckBoxHamburg.Content" xml:space="preserve">
-    <value>Hamburg steak</value>
+    <value>漢堡</value>
   </data>
   <data name="MainPage_CheckBoxSushi.Content" xml:space="preserve">
-    <value>Sushi</value>
+    <value>壽司</value>
   </data>
   <data name="MainPage_ButtonOrder.Content" xml:space="preserve">
-    <value>Order</value>
+    <value>命令</value>
   </data>
   <data name="MainPageViewModel_MessageTitle" xml:space="preserve">
-    <value>Information</value>
+    <value>資訊</value>
   </data>
   <data name="MainPageViewModel_MessageContent" xml:space="preserve">
-    <value>Enjoy delicious food!</value>
+    <value>讓我們一起享受美味的食物吧！</value>
   </data>
   <data name="MainPageViewModel_ButtonOk" xml:space="preserve">
-    <value>OK</value>
+    <value>好的</value>
   </data>
 </root>

@@ -8,7 +8,7 @@
 //
 // ----------------------------------------------------------------------------
 
-using CsvToReswSample.Helpers;
+using CsvToReswSample.Strings;
 
 namespace CsvToReswSample.Views;
 
@@ -26,7 +26,7 @@ internal sealed partial class MainWindow : WindowEx
 		InitializeComponent();
 
 		AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
-		Content = new MainPage();
-		Title = "AppDisplayName".GetLocalized();
+		Content = new MainPage(this);
+		Title = Localize.AppInfo_AppName.Localized();
 	}
 }

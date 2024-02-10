@@ -23,9 +23,9 @@ internal sealed partial class MainPage : Page
 	/// <summary>
 	/// Main constructor
 	/// </summary>
-	public MainPage()
+	public MainPage(MainWindow mainWindow)
 	{
-		ViewModel = new();
+		ViewModel = new(mainWindow);
 		InitializeComponent();
 	}
 
@@ -36,7 +36,7 @@ internal sealed partial class MainPage : Page
 	/// <summary>
 	/// View model
 	/// </summary>
-	public MainViewModel ViewModel
+	public MainPageViewModel ViewModel
 	{
 		get;
 	}
