@@ -1,19 +1,43 @@
+// ============================================================================
+// 
+// Main page
+// 
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+//
+// ----------------------------------------------------------------------------
+
 using CsvToReswSample.ViewModels;
 
 using Microsoft.UI.Xaml.Controls;
 
 namespace CsvToReswSample.Views;
 
-public sealed partial class MainPage : Page
+internal sealed partial class MainPage : Page
 {
-	public MainViewModel ViewModel
-	{
-		get;
-	}
+	// ====================================================================
+	// Constructors
+	// ====================================================================
 
+	/// <summary>
+	/// Main constructor
+	/// </summary>
 	public MainPage()
 	{
 		ViewModel = new();
 		InitializeComponent();
+	}
+
+	// ====================================================================
+	// Public properties
+	// ====================================================================
+
+	/// <summary>
+	/// View model
+	/// </summary>
+	public MainViewModel ViewModel
+	{
+		get;
 	}
 }

@@ -1,9 +1,26 @@
+// ============================================================================
+// 
+// Main window
+// 
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+//
+// ----------------------------------------------------------------------------
+
 using CsvToReswSample.Helpers;
 
 namespace CsvToReswSample.Views;
 
-public sealed partial class MainWindow : WindowEx
+internal sealed partial class MainWindow : WindowEx
 {
+	// ====================================================================
+	// Constructors
+	// ====================================================================
+
+	/// <summary>
+	/// Main constructor
+	/// </summary>
 	public MainWindow()
 	{
 		InitializeComponent();
