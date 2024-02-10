@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvToReswSample", "CsvToReswSample\CsvToReswSample.csproj", "{8D748056-E55C-457F-9A97-EA49DE6F5AEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvToReswSample.Core", "CsvToReswSample.Core\CsvToReswSample.Core.csproj", "{6D2E6FE5-D0EE-49FF-9776-4228DB88E3BF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -19,10 +17,6 @@ Global
 		{8D748056-E55C-457F-9A97-EA49DE6F5AEF}.Release|x64.ActiveCfg = Release|x64
 		{8D748056-E55C-457F-9A97-EA49DE6F5AEF}.Release|x64.Build.0 = Release|x64
 		{8D748056-E55C-457F-9A97-EA49DE6F5AEF}.Release|x64.Deploy.0 = Release|x64
-		{6D2E6FE5-D0EE-49FF-9776-4228DB88E3BF}.Debug|x64.ActiveCfg = Debug|x64
-		{6D2E6FE5-D0EE-49FF-9776-4228DB88E3BF}.Debug|x64.Build.0 = Debug|x64
-		{6D2E6FE5-D0EE-49FF-9776-4228DB88E3BF}.Release|x64.ActiveCfg = Release|x64
-		{6D2E6FE5-D0EE-49FF-9776-4228DB88E3BF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

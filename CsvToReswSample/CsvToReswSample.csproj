@@ -32,10 +32,6 @@
     <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.9" />
     <PackageReference Include="WinUIEx" Version="2.3.3" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CsvToReswSample.Core\CsvToReswSample.Core.csproj" />
-  </ItemGroup>
   
   <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
