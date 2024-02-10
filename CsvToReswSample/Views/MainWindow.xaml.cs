@@ -1,8 +1,6 @@
 using CsvToReswSample.Helpers;
-using CsvToReswSample.Views;
-using Windows.UI.ViewManagement;
 
-namespace CsvToReswSample;
+namespace CsvToReswSample.Views;
 
 public sealed partial class MainWindow : WindowEx
 {

@@ -1,16 +1,12 @@
+using CsvToReswSample.Views;
+
 using Microsoft.UI.Xaml;
 
 namespace CsvToReswSample;
 
-// To learn more about WinUI 3, see https://docs.microsoft.com/windows/apps/winui/winui3/.
 public partial class App : Application
 {
 	public static WindowEx MainWindow { get; } = new MainWindow();
-
-	public static UIElement? AppTitlebar
-	{
-		get; set;
-	}
 
 	public App()
 	{
@@ -21,8 +17,6 @@ public partial class App : Application
 
 	private void App_UnhandledException(object sender, Microsoft.UI.Xaml.UnhandledExceptionEventArgs e)
 	{
-		// TODO: Log and handle exceptions as appropriate.
-		// https://docs.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.application.unhandledexception.
 	}
 
 	protected override void OnLaunched(LaunchActivatedEventArgs args)
