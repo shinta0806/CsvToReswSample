@@ -1,5 +1,5 @@
 Description,ID-Large,ID-Middle,ID-Small,en-us,ja-jp,zh-tw
-App info,AppInfo,AppName,,CSV to resw Sample,CSV to resw サンプルプログラム,CSV to resw 範例程式
+App info,AppInfo,AppName,,CSV to resw Sample program,CSV to resw サンプルプログラム,CSV to resw 範例程式
 ,AppInfo,Description,,A sample program to help you understand how to use CSV to resw.,CSV to resw の使い方を理解するためのサンプルプログラムです。,這是一個範例程序，用於了解如何使用 CSV to resw。
 Main Window,MainPage,TextBlockGuidance.Text,,Choose the dish you would like to order.,注文したい料理を選んでください。,請選擇您想點的菜色。
 ,MainPage,CheckBoxCurry.Content,,Curry,カレー,咖哩
